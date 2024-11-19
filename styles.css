@@ -1,0 +1,26 @@
+/* Large CSS File to Simulate Render Blocking */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Add many styles to make it large */
+  div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: red;
+  }
