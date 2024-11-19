@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto.woff2') format('woff2'),
+         url('fonts/roboto.woff') format('woff');
+    font-display: swap;
+  }
+
 /* Large CSS File to Simulate Render Blocking
 body {
     font-family: Arial, sans-serif;
@@ -22,5 +29,6 @@ body {
   
   h1 {
     font-size: 48px;
+    font-family: 'Roboto';
     color: red;
   }
